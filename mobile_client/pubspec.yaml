@@ -1,0 +1,44 @@
+name: jetkiz_mobile
+description: Jetkiz mobile client
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP клиент для backend
+  dio: ^5.4.3+1
+  http: ^1.2.2
+
+  # Удобные утилиты
+  equatable: ^2.0.5
+
+  # Логи
+  logger: ^2.2.0
+
+  # Локальное хранение auth token
+  shared_preferences: ^2.2.3
+
+  # Выбор фото с телефона
+  image_picker: ^1.1.2
+
+  # SVG логотипы и иконки
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
